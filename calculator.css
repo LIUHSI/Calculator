@@ -1,0 +1,18 @@
+.screen {
+    width: 150px; /*寬度*/
+    height: 25px; /*高度*/
+    margin-bottom: 3px; /*下邊界距離*/
+    border-radius:20px; /*圓角*/
+    border: 1px solid #00AAAA; /*邊框，實線，色號*/
+    padding:10px; /*內距*/
+    color: #003C9D;
+}
+.keyboard input {
+width: 37px; /*寬度*/
+-webkit-appearance: button; /*LC不懂這啥不規則屬性啥咪碗糕*/
+height: 38px; /*高度*/
+margin: 5px 1px; /*外邊界，可是為什麼不是4個？*/
+border-radius:50%; /*圓角，為什麼這個用%上面的用px？*/
+border: 1px solid #00AAAA; /*邊框，實線，色號*/ /*為什麼keyboard不用padding？*/
+color: #003C9D;
+}
